@@ -7,10 +7,17 @@
 
 
 
-{:game-size 5
+{:game-size 3
  :creatures [{:type :elf
               :coord [1 2]}
              {:type :goblin
-              :coord [3 4]}
+              :coord [2 2]}
              {:type :goblin
               :coord [0 0]}]}
+
+[["#" "#" "#" "#" "#"]
+ ["#" "G" "." "." "#"]
+ ["#" "." "E" "." "#"]
+ ["#" "." "." "G" "#"]
+ ["#" "#" "#" "#" "#"]]
+
